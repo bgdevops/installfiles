@@ -1,0 +1,30 @@
+    1  cd
+    2  pwd
+    3  cd
+    4  mkdir scripts
+    5  cd scripts
+    6  vi installjenkins.ksh
+    7  vi i*
+    8  apt-get update
+    9  sudo apt-get install openjdk-8-jre-headless -y
+   10  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key| sudo apt-key add -
+   11  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+   12  apt-get update
+   13  sudo apt-get install jenkins -y
+   14  cat 
+   15  cat /var/lib/jenkins/secrets/initialAdminPassword
+   16  cat /etc/default/jenkins
+   17  service start jenkins
+   18  sudo service start jenkins
+   19  sudo service jenkins start
+   20  sudo apt-get install nginx
+   21  apt get-update
+   22  apt-get update
+   23  sudo service nginix start
+   24  sudo service nginx start
+   25  sudo apt-get install ufw
+   26  sudo ufw allow 8080
+   27  sudo service jenkins start
+   28  cat /var/lib/jenkins/secrets/initialAdminPasswor
+   29  cat /var/lib/jenkins/secrets/initialAdminPassword
+   30  history > installjenkins.txt

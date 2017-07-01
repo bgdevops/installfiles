@@ -1,0 +1,60 @@
+    1  cd
+    2  pwd
+    3  cd
+    4  mkdir scripts
+    5  cd scripts
+    6  vi installjenkins.ksh
+    7  vi i*
+    8  apt-get update
+    9  sudo apt-get install openjdk-8-jre-headless -y
+   10  wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key| sudo apt-key add -
+   11  sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+   12  apt-get update
+   13  sudo apt-get install jenkins -y
+   14  cat 
+   15  cat /var/lib/jenkins/secrets/initialAdminPassword
+   16  cat /etc/default/jenkins
+   17  service start jenkins
+   18  sudo service start jenkins
+   19  sudo service jenkins start
+   20  sudo apt-get install nginx
+   21  apt get-update
+   22  apt-get update
+   23  sudo service nginix start
+   24  sudo service nginx start
+   25  sudo apt-get install ufw
+   26  sudo ufw allow 8080
+   27  sudo service jenkins start
+   28  cat /var/lib/jenkins/secrets/initialAdminPasswor
+   29  cat /var/lib/jenkins/secrets/initialAdminPassword
+   30  history > installjenkins.txt
+   31  vi inst*txt
+   32  ls
+   33  vi *txt
+   34  cat /etc/default/jenkins
+   35  vi /etc/default/jenkins
+   36  echo $JAVA_HOME
+   37  env | more
+   38  java
+   39  java --version
+   40  java -version
+   41  cd /usr
+   42  ls
+   43  cd bin
+   44  ls
+   45  ls java
+   46  cd
+   47  service jenkins start
+   48  service jenkins restart
+   49  sudo apt-get update
+   50  sudo apt-get install tomcat8
+   51  sudo apt-get install tomcat8-docs tomcat8-examples tomcat8-admin
+   52  sudo 
+   53  sudo service tomcat8 start
+   54  vi  /var/lib/tomcat8/conf/tomcat-users.xml
+   55  sudo service tomcat8 restart
+   56  pwd
+   57  cd
+   58  cd scripts
+   59  ls
+   60  history > installjenkinsnginxtomccat.txt
